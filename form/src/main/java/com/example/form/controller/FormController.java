@@ -32,5 +32,4 @@ public class FormController {
 		model.addAttribute("userName", auth.getName());
 		return "form";
 	}
-
 }

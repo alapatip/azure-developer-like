@@ -36,6 +36,7 @@ public class FormController {
 		model.addAttribute("userName", auth.getName());
 		model.addAttribute("feedbacks", feedbacks);
 		model.addAttribute("message", null);
+		model.addAttribute("sas", fileService.getSas("raw-images"));
 		return "form";
 	}
 
